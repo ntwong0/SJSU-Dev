@@ -8,7 +8,7 @@
 ## Operating System Supported
 
 <p align="center">
-<img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png" height="100px"/>
+<img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" height="100px"/>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="http://cdn.osxdaily.com/wp-content/uploads/2010/10/giant-apple-logo-bw.png" height="100px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,6 +32,18 @@ See **[documentation](http://sjsu-dev.readthedocs.io/en/latest/?badge=latest)** 
 * **WSL testing**: Sameer Azer, Aaron Moffit, Ryan Lucus
 
 ## Change Log
+
+### Update 01.05.2018
+
+* I2C library extended to allow for single byte send and receive.
+* Added Assembly project template to repo
+* Fixed issue with HelloWorld project template
+
+### Update 10.23.2017
+
+* Closes #10 : Makefile threading causing problems bug
+* Closes #9 : Output warning if you user does not source env.sh file problem
+* Closes #1 : Docs do not fit current repo problem
 
 ### Update 09.30.2017
 * Added rules into make file to allow for assembly compilation.

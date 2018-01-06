@@ -25,14 +25,22 @@
 #include "utilities.h"
 #include "io.hpp"
 
-#define CHECK_BIT(var,pos) ((var) & (1<<(pos)))
+const bool CHECK_BIT(var, pos)
+{
+    return (bool)(var & (1 << pos));
+}
 
-void ctoba(char * arr, char num) {
+void ctoba(char * arr, char num)
+{
     arr[4] = 0;
-    for(int i = 3; i >= 0; i--) {
-        if(num & (8 >> i)) {
+    for(int i = 3; i >= 0; i--)
+    {
+        if(num & (8 >> i))
+        {
             arr[i] = '1';
-        } else {
+        }
+        else
+        {
             arr[i] = '0';
         }
     }
