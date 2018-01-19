@@ -25,7 +25,7 @@
 #include "utilities.h"
 #include "io.hpp"
 
-const bool CHECK_BIT(var, pos)
+const bool CHECK_BIT(int var, int pos)
 {
     return (bool)(var & (1 << pos));
 }
